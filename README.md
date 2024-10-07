@@ -50,7 +50,7 @@ breakTimer.start();
 
 1. Склонируйте репозиторий:
    ```sh
-   git clone <URL репозитория>
+   git clone https://github.com/iziDevelop/work-break-timer.git
    ```
 2. Установите зависимости:
    ```sh
@@ -64,46 +64,3 @@ breakTimer.start();
 ```sh
 npm start
 ```
-
-## Файл .gitignore
-
-```plaintext
-# Игнорирование директорий среды разработки
-.idea/
-.vscode/
-node_modules/
-
-# Игнорирование компилированных файлов и артефактов сборки
-dist/
-build/
-out/
-
-# Игнорирование логов, временных файлов и файлов из кеша
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/tmp/
-
-# Игнорирование окружения
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Игнорирование зависимостей для разных ОС
-.DS_Store
-Thumbs.db
-
-# Игнорирование кэша ESLint
-.eslintcache
-
-# Игнорирование кэша TypeScript
-tsbuildinfo
-```
-
-## Лицензия
-
-Этот проект лицензирован под [MIT License](LICENSE).
