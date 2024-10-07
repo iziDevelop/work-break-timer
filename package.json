@@ -1,14 +1,16 @@
 {
-  "name": "testerjs",
+  "name": "work-break-timer",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Таймер для управления рабочими и перерывными интервалами",
+  "main": "src/index.ts",
   "scripts": {
-    "build": "tsc"
+    "start": "tsx src/index.ts"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "tsx": "^3.8.1"
   },
   "private": true
 }
